@@ -1,6 +1,6 @@
 # API_Faculty_Project
 
-An ASP.NET Core Web API for managing faculty-related data, including **Departments**, **Instructors**, and **Courses**. This API is built using a clean architecture approach and is suitable for integration with web
+An ASP.NET Core Web API for managing faculty-related data, including **Departments**, **Instructors**, **Accounts**, and **Courses**. This API is built using a clean architecture approach and is suitable for integration with web
 or mobile applications in an educational environment.
 
 ---
@@ -11,6 +11,7 @@ or mobile applications in an educational environment.
 - Entity Framework Core for data access
 - RESTful endpoints for CRUD operations
 - Structured layers: Controllers, Services, Repositories
+- Authentication & Authorization (JWT)
 - Dependency Injection and Model Validation
 - Swagger/OpenAPI documentation support
 
@@ -19,7 +20,7 @@ or mobile applications in an educational environment.
 ## 📁 Project Structure
 API_Faculty_Project/
 │
-├── Controllers/ # API Controllers (Department, Instructor, Course)
+├── Controllers/ # API Controllers (Department, Instructor, Course,Account)
 ├── Models/ # Entity Models
 ├── DTOs/ # Data Transfer Objects
 ├── Data/ # EF Core DB Context & Migrations
@@ -76,6 +77,50 @@ POST	/api/resources	Create new resource
 PUT	/api/resources/{id}	Update resource
 DELETE	/api/resources/{id}	Delete resource
 
+🔐 Authentication & Authorization (JWT)
+This API uses JWT (JSON Web Tokens) for secure authentication and role-based authorization.
+
+🔑 Login to Get Token
+Authenticate by sending a POST request to:
+POST /api/auth/login
+
+Request Body Example:
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+Successful Response:
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6Ikp..."
+}
+
+Use this token in the Authorization header for all protected requests:
+Authorization: Bearer <your-token>
+🔒 Protected Endpoints
+Use [Authorize] to secure endpoints. Roles can be specified via [Authorize(Roles = "Admin")].
+
+Endpoint	Access Role
+GET /api/Course	Any Authenticated User
+POST /api/Course	Any Authenticated User
+PUT /api/Course/id	Any Authenticated User
+DELETE /api/Course/id	Any Authenticated User
+
+🛡️ Token Validation
+Tokens are validated using the following settings from appsettings.json:
+"JwtSettings": {
+  "Key": "YourSecretKeyHere",
+  "Issuer": "API_Faculty_Project",
+  "Audience": "FacultyUsers",
+  "DurationInMinutes": 60
+}
+📘 Swagger UI Authorization
+You can authorize your requests directly in Swagger UI:
+Click the "Authorize" button.
+Enter your token:
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6Ikp...
+Swagger will attach the token to future requests.
+
 📖 API Documentation
 Once the app is running, access Swagger UI:
 
@@ -86,6 +131,7 @@ Swagger provides interactive documentation and testing for all endpoints.
 ASP.NET Core Web API
 Entity Framework Core
 SQL Server
+JWT (JSON Web Tokens) for secure authentication and role-based authorization
 Swagger / Swashbuckle
 
 📝 License
