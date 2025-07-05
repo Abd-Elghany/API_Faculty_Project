@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|e:\\iti materials\\api\\labs\\api_lab1\\api_lab1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|solutionrelative:api_lab1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|e:\\iti materials\\api\\labs\\api_lab1\\api_lab1\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|solutionrelative:api_lab1\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|e:\\iti materials\\api\\labs\\api_lab1\\api_lab1\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|solutionrelative:api_lab1\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|e:\\iti materials\\api\\labs\\api_lab1\\api_lab1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|solutionrelative:api_lab1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|e:\\iti materials\\api\\labs\\api_lab1\\api_lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|solutionrelative:api_lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|e:\\iti materials\\api\\labs\\api_lab1\\api_lab1\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C73EB8-D5D9-4B42-8272-F3EE57FB4759}|API_Lab1\\API_Lab1.csproj|solutionrelative:api_lab1\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "API_Lab1\\DTOs\\LoginDTO.cs",
+              "ToolTip": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "API_Lab1\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T02:22:33.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "API_Lab1\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "API_Lab1\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T02:22:24.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "API_Lab1\\Controllers\\CourseController.cs",
+              "ToolTip": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "API_Lab1\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:53:12.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API_Lab1\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API_Lab1\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA6wBoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:39:45.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Context.cs",
+              "DocumentMoniker": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\Models\\Context.cs",
+              "RelativeDocumentMoniker": "API_Lab1\\Models\\Context.cs",
+              "ToolTip": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\Models\\Context.cs",
+              "RelativeToolTip": "API_Lab1\\Models\\Context.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIBCwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:13:06.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\Program.cs",
+              "RelativeDocumentMoniker": "API_Lab1\\Program.cs",
+              "ToolTip": "E:\\ITI Materials\\API\\Labs\\API_Lab1\\API_Lab1\\Program.cs",
+              "RelativeToolTip": "API_Lab1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:24:07.135Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
